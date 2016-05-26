@@ -84,7 +84,7 @@ def koans():
     suite.addTests(loader.loadTestsFromTestCase(AboutPackages))
     suite.addTests(loader.loadTestsFromTestCase(AboutClassAttributes))
     suite.addTests(loader.loadTestsFromTestCase(AboutAttributeAccess))
-    suite.addTests(loader.loadTestsFromTestCase(AboutDeletingObjects))
+    # suite.addTests(loader.loadTestsFromTestCase(AboutDeletingObjects))
     # suite.addTests(loader.loadTestsFromTestCase(AboutProxyObjectProject))
     # suite.addTests(loader.loadTestsFromTestCase(TelevisionTest))
     # suite.addTests(loader.loadTestsFromTestCase(AboutExtraCredit))
